@@ -74,8 +74,7 @@ RC high-pass filter (1 uF, 318k) with cutoff fc of about 0.5 Hz. It blocks slow 
 ### 06 Band-pass filter
 ![Band-pass](screenshots/06_bandpass_AC.jpg)
 
-Band-pass filter built from a low-pass stage (3.98k, 1 uF, fc about 40 Hz) followed by a high-pass stage (1 uF, 318k, fc about 0.5 Hz). It passes roughly 0.5 to 40 Hz, the diagnostic ECG range.
-
+Band-pass filter built from a low-pass stage (3.98k, 1 uF, fc about 40 Hz) followed by a high-pass stage (1 uF, 318k, fc about 0.5 Hz). It passes roughly 0.5 to 40 Hz, a band typical of ECG monitoring (diagnostic ECG standards use a wider band, about 0.05 to 150 Hz).
 ### 07 Noise test, R2 = 3.98k
 ![Noise test](screenshots/07_bandpass_noise_test.jpg)
 
