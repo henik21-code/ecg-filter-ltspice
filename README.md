@@ -116,8 +116,7 @@ Same test with R2 = 15.9k, which moves the low-pass cutoff to about 10 Hz. The 5
 1. Add an op-amp buffer and gain stage, and a 2nd-order active filter.
 2. Add a 50 Hz twin-T notch filter.
 3. Run Monte Carlo analysis (1% resistors, 10% capacitors).
-4. Repeat the filtering in Python (SciPy) on real MIT-BIH ECG data and
-   validate R-peak detection against expert annotations.
+4. Done: digital filtering and R-peak detection on real MIT-BIH ECG data, see [ecg-rpeak-detection-python](https://github.com/henik21-code/ecg-rpeak-detection-python)
 
 ## 8. Repository structure
 
